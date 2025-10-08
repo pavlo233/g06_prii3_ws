@@ -1,4 +1,0 @@
-[console_scripts]
-turtle_draw = g06_prii3_turtlesim.turtle_draw:main
-turtle_service = g06_prii3_turtlesim.turtle_service:main
-
