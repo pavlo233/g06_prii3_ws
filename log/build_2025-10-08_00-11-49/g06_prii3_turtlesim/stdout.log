@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/dependency_links.txt
+writing entry points to ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/entry_points.txt
+writing requirements to ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/requires.txt
+writing top-level names to ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/top_level.txt
+reading manifest file '../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/SOURCES.txt'
+writing manifest file '../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying g06_prii3_turtlesim/turtle_draw.py -> /home/pavlo/g06_prii3_ws/build/g06_prii3_turtlesim/build/lib/g06_prii3_turtlesim
+running install
+running install_lib
+copying /home/pavlo/g06_prii3_ws/build/g06_prii3_turtlesim/build/lib/g06_prii3_turtlesim/turtle_draw.py -> /home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim
+byte-compiling /home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim/turtle_draw.py to turtle_draw.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info to /home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim-0.0.0-py3.8.egg-info
+running install_scripts
+Installing turtle_draw script to /home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/g06_prii3_turtlesim
+Installing turtle_service script to /home/pavlo/g06_prii3_ws/install/g06_prii3_turtlesim/lib/g06_prii3_turtlesim
+writing list of installed files to '/home/pavlo/g06_prii3_ws/build/g06_prii3_turtlesim/install.log'

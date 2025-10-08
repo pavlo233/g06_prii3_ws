@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info
+writing ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/dependency_links.txt
+writing entry points to ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/entry_points.txt
+writing requirements to ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/requires.txt
+writing top-level names to ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/top_level.txt
+writing manifest file '../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/SOURCES.txt'
+reading manifest file '../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/SOURCES.txt'
+writing manifest file '../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/build
+creating /home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/build/lib
+creating /home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/build/lib/g06_prii3_turtlesim
+copying g06_prii3_turtlesim/__init__.py -> /home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/build/lib/g06_prii3_turtlesim
+running install
+running install_lib
+creating /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim
+copying /home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/build/lib/g06_prii3_turtlesim/__init__.py -> /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim
+byte-compiling /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/share/ament_index
+creating /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/share/ament_index/resource_index
+creating /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/share/ament_index/resource_index/packages
+copying resource/g06_prii3_turtlesim -> /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/share/g06_prii3_turtlesim
+running install_egg_info
+Copying ../build/g06_prii3_turtlesim/g06_prii3_turtlesim.egg-info to /home/pavlo/g06_prii3_ws/src/install/g06_prii3_turtlesim/lib/python3.8/site-packages/g06_prii3_turtlesim-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/pavlo/g06_prii3_ws/src/build/g06_prii3_turtlesim/install.log'
