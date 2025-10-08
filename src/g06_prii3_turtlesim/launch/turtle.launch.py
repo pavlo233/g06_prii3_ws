@@ -3,11 +3,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        Node(
-            package='turtlesim',
-            executable='turtlesim_node',
-            name='sim'
-        ),
+        
         Node(
             package='g06_prii3_turtlesim',
             executable='turtle_draw',
@@ -17,5 +13,11 @@ def generate_launch_description():
             package='g06_prii3_turtlesim',
             executable='turtle_service',
             name='service'
+        ),
+        Node(
+            package='turtlesim',
+            executable='turtlesim_node',
+            name='sim'
+            
         ),
     ])
