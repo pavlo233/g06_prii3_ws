@@ -1,0 +1,4 @@
+[console_scripts]
+jetbot_draw = mov6.jetbot_draw:main
+jetbot_service = mov6.jetbot_service:main
+
