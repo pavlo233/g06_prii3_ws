@@ -60,7 +60,7 @@ $ ros2 launch jetbot_pro_ros2 jetbot.py #Inicia el nodo de control del robot
 
 ros2 launch mov6 launch_jetbot.py #para que haga el 6
 
-ros2 launch mov6 launch_jetbot_lidar.py #seis con marcha paro por deteccion lidar
+ros2 launch mov6 launch_jetbot_lidar.py #seis con marcha paro por deteccion lidar 
 
 ros2 launch mov6 launch_jetbot_lidar_avoidance.py #seis con evitamiento de objetos (aun no perfeccionado)
 
@@ -111,9 +111,9 @@ $ros2 launch turtlebot3_gazebo empty_world.launch.py
 
 ros2 launch g06_prii3_move_turtlebot launch_turtlebot.py #para que haga el 6
 
-ros2 launch g06_prii3_move_turtlebot launch_turtlebot_lidar.py #seis con marcha paro por deteccion lidar
+ros2 launch g06_prii3_move_turtlebot launch_turtlebot_lidar.py #seis con marcha paro por deteccion lidar para probar la deteccion selecciona el cubo y ponselo delante y luego muevelo para ver como continua
 
-ros2 launch g06_prii3_move_turtlebot launch_turtlebot_lidar_avoidance.py #seis con evitamiento de objetos
+ros2 launch g06_prii3_move_turtlebot launch_turtlebot_lidar_avoidance.py #seis con evitamiento de objetos para probar la deteccion selecciona el cubo y ponselo delante 
 
 
 
