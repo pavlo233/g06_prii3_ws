@@ -2,7 +2,7 @@
 REQUISITOS
 ----tener ros instalado
 ----clonar repositorio
---en src/g06_prii3_turtlesim
+--entrar al repo g06_prii3_ws
 source /opt/ros/foxy/setup.bash
 colcon build
 source install/setup.bash
@@ -21,9 +21,9 @@ ________________________________________________________________________________
 REQUISITOS
 ----tener ros instalado
 ----clonar repositorio
---en src/g06_prii3_jetbot
+--entrar al repo g06_prii3_ws
 source /opt/ros/foxy/setup.bash
-colcon build
+colcon build 
 source install/setup.bash
 
 Entrar al robot mediante:
@@ -31,9 +31,9 @@ $ ssh -X jetbot@IP_del_robot
 $ ros2 launch jetbot_pro_ros2 jetbot.py #Inicia el nodo de control del robot
 
 --tres opciones
-ros2 launch g06_prii3__move_jetbot launch_jetbot.py #para que haga el 6
-ros2 launch g06_prii3__move_jetbot launch_jetbot_lidar.py #seis con marcha paro por deteccion lidar
-ros2 launch g06_prii3__move_jetbot launch_jetbot_lidar_avoidance.py #seis con evitamiento de objetos (aun no perfeccionado)
+ros2 launch mov6 launch_jetbot.py #para que haga el 6
+ros2 launch mov6 launch_jetbot_lidar.py #seis con marcha paro por deteccion lidar
+ros2 launch mov6 launch_jetbot_lidar_avoidance.py #seis con evitamiento de objetos (aun no perfeccionado)
 
 abrir otro terminal para usar el service
 source /opt/ros/foxy/setup.bash
@@ -48,7 +48,7 @@ ________________________________________________________________________________
 REQUISITOS
 ----tener ros instalado
 ----clonar repositorio
---en src/g06_prii3_turtlebot
+--entrar al repo g06_prii3_ws
 source /opt/ros/foxy/setup.bash
 colcon build
 source install/setup.bash
