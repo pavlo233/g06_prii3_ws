@@ -34,9 +34,6 @@ class TurtlebotDrawLidar(Node):
         self.declare_parameter('obstacle_distance', 0.35)
         self.declare_parameter('front_angle', 35.0)
 
-    # -------------------------------
-    # UTILIDADES
-    # -------------------------------
     def get_time(self):
         sec, nsec = self.get_clock().now().seconds_nanoseconds()
         return sec + nsec / 1e9
@@ -49,9 +46,7 @@ class TurtlebotDrawLidar(Node):
         self.paused_time = 0.0
         self.last_pause = None
 
-    # -------------------------------
-    # CONTROL MANUAL
-    # -------------------------------
+   
     def pause(self):
         if self.active:
             self.active = False
@@ -76,9 +71,7 @@ class TurtlebotDrawLidar(Node):
         elif cmd == 'reset':
             self.reset()
 
-    # -------------------------------
-    # LIDAR
-    # -------------------------------
+   
     def lidar_callback(self, msg: LaserScan):
         limit = float(self.get_parameter('obstacle_distance').value)
         front_angle = float(self.get_parameter('front_angle').value)
@@ -97,9 +90,7 @@ class TurtlebotDrawLidar(Node):
         self.last_min_distance = min(valid_ranges)
         self.last_lidar_time = self.get_time()
 
-    # -------------------------------
-    # CHEQUEO CONTINUO DE ESTADO
-    # -------------------------------
+   
     def check_status(self):
         limit = float(self.get_parameter('obstacle_distance').value)
         margin = 0.1
@@ -120,9 +111,7 @@ class TurtlebotDrawLidar(Node):
                 self.resume()
                 self.get_logger().info(f"Camino despejado ({self.last_min_distance:.2f} m).")
 
-    # -------------------------------
-    # MOVIMIENTO
-    # -------------------------------
+  
     def move(self):
         if self.obstacle_detected or not self.active:
             stop = Twist()
