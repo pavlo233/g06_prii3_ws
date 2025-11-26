@@ -11,8 +11,12 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        # Instalar el launch file
-        (os.path.join('share', package_name, 'launch'), ['launch/cositas_launch.py']),
+        # Instalar todos los archivos .py y .yaml de la carpeta 'launch'
+        (os.path.join('share', package_name, 'launch'), [
+            'launch/cositas_launch.py',
+            'launch/f1l3_world_launch.py',
+            'launch/mapaclase.yaml'  # <-- ¡ESTA ES LA LÍNEA CLAVE!
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
