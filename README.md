@@ -158,6 +158,35 @@ source install/setup.bash
 
 ros2 launch g06_prii3_nav_turtlebot cositas_launch.py
 
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+5/WAFFLE POR SCRIPT CON ARUCO
+
+REQUISITOS ----tener ros instalado
+
+----clonar repositorio
+
+--entrar al repo g06_prii3_ws
+
+source /opt/ros/foxy/setup.bash
+
+ves a g06_prii3_ws/src/g06_prii3_turtlebot/worlds/models y copia las carpetas y pegalas en /home/.gazebo/models
+
+export TURTLEBOT3_MODEL=waffle
+
+colcon build
+
+source install/setup.bash
+
+---ejecutar con
+
+ros2 launch g06_prii3_nav_turtlebot cositas_aruco_launch.py
+
+por defecto mira el aruco 0 si quieres probar los demas muevelos o cambia las texturas en la carpeta oculta funciona con los aruco 0 1 y 10 cambia la textura 0 por la 1 o la 10 y renomrala como 0
+
 
 
 
