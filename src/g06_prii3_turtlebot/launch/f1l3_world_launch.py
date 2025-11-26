@@ -16,7 +16,7 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('g06_prii3_turtlebot'),
         'worlds',
-        'version2.world'
+        'version3.world'
     )
 
     launch_file_dir = os.path.join(
@@ -30,7 +30,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(
                 os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
             ),
-            launch_arguments={'world': world}.items(),     # ← MODIFICADO
+            launch_arguments={'world': world}.items(),     
         ),
 
         IncludeLaunchDescription(
