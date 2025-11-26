@@ -130,3 +130,40 @@ ros2 topic pub /turtle_command std_msgs/String "data: 'pause'" -1
 
 ros2 topic pub /turtle_command std_msgs/String "data: 'resume'" -1
 
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+3/Waffle por script
+
+REQUISITOS
+----tener ros instalado
+
+----clonar repositorio
+
+--entrar al repo g06_prii3_ws
+
+source /opt/ros/foxy/setup.bash
+
+ves a g06_prii3_ws/src/g06_prii3_turtlebot/worlds/models y copia las carpetas y pegalas en /home/.gazebo/models
+
+export TURTLEBOT3_MODEL=waffle
+
+colcon build
+
+source install/setup.bash
+
+---ejecutar con  
+
+ros2 launch g06_prii3_nav_turtlebot cositas_launch.py
+
+
+
+
+
+
+
+
+
+
