@@ -15,7 +15,8 @@ setup(
         (os.path.join('share', package_name, 'launch'), [
             'launch/cositas_launch.py',
             'launch/f1l3_world_launch.py',
-            'launch/mapaclase.yaml'  # <-- ¡ESTA ES LA LÍNEA CLAVE!
+            'launch/mapaclase.yaml',
+            'launch/mapaclase.pgm'  
         ]),
     ],
     install_requires=['setuptools'],
