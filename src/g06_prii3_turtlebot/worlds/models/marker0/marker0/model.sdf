@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><sdf version="1.4">
+<?xml version="1.0" ?>
+<sdf version="1.6">
   <model name="Marker0">
     <static>true</static>
     <link name="link">
@@ -6,7 +7,7 @@
         <geometry>
           <mesh>
             <uri>model://marker0/meshes/Marker0.dae</uri>
-          <scale>4.0 4.0 4.0</scale></mesh>
+          </mesh>
         </geometry>
       </visual>
     </link>
