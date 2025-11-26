@@ -15,6 +15,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), [
             'launch/cositas_launch.py',
             'launch/f1l3_world_launch.py',
+            'launch/cositas_aruco_launch.py',
             'launch/mapaclase.yaml',
             'launch/mapaclase.pgm'  
         ]),
@@ -28,6 +29,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cositas = g06_prii3_nav_turtlebot.cositas:main',
+            'cositas_aruco = g06_prii3_nav_turtlebot.cositas_aruco:main',
         ],
     },
 )
